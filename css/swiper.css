@@ -1,0 +1,54 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    padding: 10px;
+  }
+
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+
+  .swiper-button-next-unique,.swiper-button-prev-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9F9F9;
+    border-radius: 12px;
+    width: 52px;
+    height: 52px;
+    padding: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .swiper-button-prev-unique {
+    position: absolute;
+    right: 74px;
+    top: 29px;
+  }
+
+  .swiper-button-next-unique {
+    position: absolute;
+    right: 169px;
+    top: 29px;
+  }
+
+
+
+
+
